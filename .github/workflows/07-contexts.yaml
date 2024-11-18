@@ -18,6 +18,5 @@ jobs:
           echo "Número de ejecución: ${{ github.run_number }}"
       - name: Retrieve Variable
         run: |
-          echo "MY_VAR = ${{ vars.MY_VAR }}"
           echo "ORG_VAR = ${{ vars.ORG_VAR }}"
 
